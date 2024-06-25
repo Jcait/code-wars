@@ -27,7 +27,7 @@ function digitize(n) {
 
 ### Step 2
 
-Now it's a string we want to split the new string of numbers up seperately and add them to a variable
+Now that it's a string, we want to split the new string of numbers up separately and add them to a variable.
 
 ```
 function digitize(n) {
@@ -38,8 +38,8 @@ function digitize(n) {
 
 ### Step 3
 
-.split() with the spererator as ("") will return any string as a full array. Now that the array is split we can reverse the numbers
-but we'll need to convert the strings back into Numbers which can be done by looping through the array with the map array function
+.split() with the spererator as ("") will return any string as a full array. Now that the array is split, we can reverse the numbers.
+But we'll need to convert the strings back into numbers, which can be done by looping through the array with the map array function.
 
 ```
 function digitize(n) {
@@ -50,7 +50,7 @@ function digitize(n) {
 
 ### Step 4
 
-Finally the return array has to be reversed which is easily obtainable if .reverse() is used
+Finally, the returned array has to be reversed, which is easily obtainable if reverse() is used.
 
 ```
 function digitize(n) {
@@ -71,9 +71,9 @@ function digitize(n) {
 }
 ```
 
-I'd made the mistake of having the seperator for .split(" ") instead of .split("") this meant the whole number was assigned to one array index rather than each digit seperatly
+I'd made the mistake of having the separator for.split(" ") instead of.split(""). This meant the whole number was assigned to one array index rather than each digit separately.
 
-The above solution could also be presented as below which is the same work just with less variables
+The above solution could also be presented as below, which is the same work just with fewer variables.
 
 ```
 function digitize(n) {

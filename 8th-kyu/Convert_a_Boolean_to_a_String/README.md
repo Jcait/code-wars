@@ -18,7 +18,7 @@ function booleanToString(b){
 
 ### Steps
 
-To begin with we add an if statement to the function to check what the value of b is
+To begin with, we add an if statement to the function to check what the value of b is.
 
 ```
 function booleanToString(b){
@@ -29,7 +29,7 @@ function booleanToString(b){
 
 ```
 
-The above code checks if 'b' equals the boolean true and returns the string "true" but it currently wont return "false"
+The above code checks if 'b' equals the boolean true and returns the string "true," but it currently won't return "false."
 
 ```
 function booleanToString(b){
@@ -41,7 +41,7 @@ function booleanToString(b){
 }
 ```
 
-The above code will return "false" if b = anything else other than true, since true and false are the only inputs applied to b received there isn't a need to be more specific with an else if conditional,
+The above code will return "false" if b = anything else other than true. Since true and false are the only inputs applied to b received, there isn't a need to be more specific with an else if conditional.
 
 ### Solution:
 
@@ -55,7 +55,7 @@ function booleanToString(b){
 }
 ```
 
-Addendum: Always make sure your if() and else if() conditons are wrapped in brackets.
+Addendum: Always make sure your if() and else if() conditions are wrapped in brackets.
 
 ```
 function booleanToString(b){
