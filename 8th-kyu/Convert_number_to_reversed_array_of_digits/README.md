@@ -72,7 +72,8 @@ function digitize(n) {
 ```
 
 I'd made the mistake of having the seperator for .split(" ") instead of .split("") this meant the whole number was assigned to one array index rather than each digit seperatly
-the above solution could also be presented as below which is the same work just with less variables
+
+The above solution could also be presented as below which is the same work just with less variables
 
 ```
 function digitize(n) {
