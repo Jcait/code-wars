@@ -6,6 +6,8 @@ Note: Only valid inputs will be given.
 
 ### Initial Code
 
-`function booleanToString(b){
+```
+function booleanToString(b){
   //your code here
-}`
+}
+```
