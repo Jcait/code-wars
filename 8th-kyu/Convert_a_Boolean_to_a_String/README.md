@@ -1,6 +1,6 @@
 # Convert a Boolean to a String
 
-## Catagpry: Fundamentals
+## Catagory: Fundamentals
 
 ## Description:
 
@@ -16,7 +16,7 @@ function booleanToString(b){
 }
 ```
 
-### Solution
+### Steps
 
 To begin with we add an if statement to the function to check what the value of b is
 
