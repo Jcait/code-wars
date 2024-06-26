@@ -9,7 +9,7 @@ Given a random non-negative number, you have to return the digits of this number
 
 ### Initial Code
 
-```
+```js
 function digitize(n) {
   //code here
 }
@@ -19,9 +19,9 @@ function digitize(n) {
 
 Taking the solution one step at a time, first I want to split the numbers up. So they'll be converted into a string
 
-```
+```js
 function digitize(n) {
-  n.toString()
+  n.toString();
 }
 ```
 
@@ -29,10 +29,9 @@ function digitize(n) {
 
 Now that it's a string, we want to split the new string of numbers up separately and add them to a variable.
 
-```
+```js
 function digitize(n) {
-  arr = n.toString().split("")
-
+  arr = n.toString().split("");
 }
 ```
 
@@ -41,10 +40,10 @@ function digitize(n) {
 .split() with the spererator as ("") will return any string as a full array. Now that the array is split, we can reverse the numbers.
 But we'll need to convert the strings back into numbers, which can be done by looping through the array with the map array function.
 
-```
+```js
 function digitize(n) {
-  arr = n.toString().split(" ")
-  mapArr = arr.map(x => parseInt(x))
+  arr = n.toString().split(" ");
+  mapArr = arr.map((x) => parseInt(x));
 }
 ```
 
@@ -52,22 +51,22 @@ function digitize(n) {
 
 Finally, the returned array has to be reversed, which is easily obtainable if reverse() is used.
 
-```
+```js
 function digitize(n) {
-  arr = n.toString().split(" ")
-  mapArr = arr.map(x => parseInt(x))
-  ans = mapArr.reverse()
+  arr = n.toString().split(" ");
+  mapArr = arr.map((x) => parseInt(x));
+  ans = mapArr.reverse();
 }
 ```
 
 ### Solution:
 
-```
+```js
 function digitize(n) {
-  arr = n.toString().split("")
-  mapArr = arr.map(x => parseInt(x))
-  ans = mapArr.reverse()
-  return ans
+  arr = n.toString().split("");
+  mapArr = arr.map((x) => parseInt(x));
+  ans = mapArr.reverse();
+  return ans;
 }
 ```
 
@@ -75,8 +74,12 @@ I'd made the mistake of having the separator for.split(" ") instead of.split("")
 
 The above solution could also be presented as below, which is the same work just with fewer variables.
 
-```
+```js
 function digitize(n) {
-return n.toString().split("").map(x => parseInt(x)).reverse()
+  return n
+    .toString()
+    .split("")
+    .map((x) => parseInt(x))
+    .reverse();
 }
 ```

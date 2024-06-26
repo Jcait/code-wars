@@ -10,8 +10,8 @@ Note: Only valid inputs will be given.
 
 ### Initial Code
 
-```
-function booleanToString(b){
+```js
+function booleanToString(b) {
   //your code here
 }
 ```
@@ -20,7 +20,7 @@ function booleanToString(b){
 
 To begin with, we add an if statement to the function to check what the value of b is.
 
-```
+```js
 function booleanToString(b){
   if b === true {
     return "true"
@@ -31,7 +31,7 @@ function booleanToString(b){
 
 The above code checks if 'b' equals the boolean true and returns the string "true," but it currently won't return "false."
 
-```
+```js
 function booleanToString(b){
   if b === true {
     return "true"
@@ -45,20 +45,20 @@ The above code will return "false" if b = anything else other than true. Since t
 
 ### Solution:
 
-```
-function booleanToString(b){
+```js
+function booleanToString(b) {
   if (b === true) {
-    return "true"
+    return "true";
   } else {
-    return "false"
+    return "false";
   }
 }
 ```
 
 Addendum: Always make sure your if() and else if() conditions are wrapped in brackets.
 
-```
-function booleanToString(b){
+```js
+function booleanToString(b) {
   return b.toString();
 }
 ```
