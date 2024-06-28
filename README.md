@@ -9,7 +9,8 @@ I'm practicing my documentation skills by documenting how I've come to solutions
 ### 8th Kyu
 
 - Convert a boolean to a String
-- - [README.md](/8th-kyu/Convert_a_Boolean_to_a_String/README.md)
+
+  - [README.md](/8th-kyu/Convert_a_Boolean_to_a_String/README.md)
 
 - Convert a number to reversed array
-- - [README.md](/8th-kyu/Convert_number_to_reversed_array_of_digits/README.md)
+  - [README.md](/8th-kyu/Convert_number_to_reversed_array_of_digits/README.md)
