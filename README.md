@@ -2,9 +2,15 @@
 
 I'm practicing my documentation skills by documenting how I've come to solutions with Code-wars tasks
 
+### 6th kyu
+
+- Create phone number
+  - [README.md](./6th-kyu/create_phone_number/README.md)
+
 ### 7th Kyu
 
--String ends with? -[README.md](./7th-kyu/String_ends_with/README.md)
+- String ends with?
+  - [README.md](./7th-kyu/String_ends_with/README.md)
 
 ### 8th Kyu
 
