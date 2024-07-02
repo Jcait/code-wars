@@ -96,9 +96,17 @@ function narcissistic(value) {
   // Code me to return true or false
   //   value digits
   let digits = value.toString().length;
-  //   array of value
   let num = value.toString().split("");
 
   return value == num.map((x) => x ** digits).reduce((acc, cur) => acc + cur);
+
+  return (
+    value ==
+    value
+      .toString()
+      .split("")
+      .map((x) => x ** value.toString().length)
+      .reduce((acc, cur) => acc + cur)
+  );
 }
 ```
