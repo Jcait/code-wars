@@ -13,6 +13,8 @@ I'm practicing my documentation skills by documenting how I've come to solutions
 
 - String ends with?
   - [README.md](./7th-kyu/String_ends_with/README.md)
+- Testing 1-2-3
+  - [README.md](./7th-kyu/Testing_1-2-3/README.md)
 
 ### 8th Kyu
 
